@@ -15,7 +15,7 @@ app.get('/', function(req, res) {
 //set route for form to submit to
 //set upload.single to match input name
 app.post('/uploads', upload.single('fileName'), function(req, res, next) {
-just to check information being returned
+//just to check information being returned
 console.log('Size of file received is: ' + req.file.size + ' bytes');
 //format string to be converted into JSON
 res.json({filesize: req.file.size});
