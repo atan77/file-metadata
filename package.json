@@ -1,0 +1,15 @@
+{
+  "name": "file-metadata",
+  "version": "1.0.0",
+  "description": "receives a file and returns the file size in bytes as a JSON response",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ashley Tan",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.13.3",
+    "multer": "^1.1.0"
+  }
+}
